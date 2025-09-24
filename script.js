@@ -25,7 +25,7 @@ function addTask(text) {
   });
 
   const delBtn = document.createElement('button');
-  delBtn.textContent = 'X';
+  delBtn.textContent = 'Delete';
   delBtn.classList.add('deleteBtn');
   delBtn.addEventListener('click', (e) => {
     e.stopPropagation(); 
